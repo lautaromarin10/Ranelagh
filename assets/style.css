@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+list-style-type: none;
+text-decoration: none;
+}
+
+body{
+    background-color: #101419ff;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    /* background-color: var(--queen-blue); */
+    width: 100%;
+    height: 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    align-items: center;
+    position: 10px;
+    opacity: 100%;
+    margin-top: 1%;
+   
+
+    
+    
+}
+
+.header__logo{
+    width: 140px;
+    height: 170px;
+    margin-left: 2%;    
+}
+
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+width: 90%;
+
+
+
+}
+
+.navbar__list{
+    display: flex;
+    gap:30px;
+    margin-right: 3%;
+}
+
+.navbar__list__buttom{
+    color: var(--queen-blue);
+    font-size: 120%;
+    font-weight: 700;
+    z-index: 1;
+
+}
+
+/* HEADER */
+
+
+
+
+
+
+/* HERO */
+
+.hero{
+    height: 880px;
+    width: 100%;
+    display: flex;
+}
+
+.hero__conteiner{
+    width: 100%;
+    display: flex;
+    color: wheat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}
+
+.hero__conteiner__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__text{
+    font-size: 260%;
+}
+
+.hero__title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: var(--uranian-blue);
+}
+
+.hero__Conteiner__buttoms{
+    display: flex;
+}
+
+.hero__buttoms__list{
+    display: flex;
+    gap:40px;
+    margin-top: 10%;
+}
+
+.buttom{
+color:aliceblue;
+font-size: 20px;
+}
+
+.hero__img__conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+}
+
+.hero__img{
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+
+
+
+/* HERO */
+
+
+
+
+
+
+
+
+
+
+
+:root{
+--cordovan: #984447ff;
+--uranian-blue: #add9f4ff;
+--queen-blue: #476c9bff;
+--steel-teal: #468c98ff;
+--rich-black-fogra-29: #101419ff;
+}
