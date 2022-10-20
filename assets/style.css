@@ -10,25 +10,23 @@ list-style-type: none;
 text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-color: #101419ff;
+    background-color:var(--rich-black-fogra-29)
 }
 
 /* HEADER */
 .header{
     display: flex;
-    /* background-color: var(--queen-blue); */
     width: 100%;
     height: 80px;
-    position: -webkit-sticky;
-    position: sticky;
     align-items: center;
-    position: 10px;
-    opacity: 100%;
-    margin-top: 1%;
-   
-
-    
+    position: fixed;
+    top:0;
+    background-color:var(--rich-black-fogra-29)
     
 }
 
@@ -44,28 +42,29 @@ display: flex;
 align-items: center;
 justify-content: flex-end;
 width: 90%;
-
-
-
 }
 
 .navbar__list{
     display: flex;
     gap:30px;
-    margin-right: 3%;
+    margin-right: 2%;
+    padding:10px;
 }
 
 .navbar__list__buttom{
-    color: var(--queen-blue);
-    font-size: 120%;
-    font-weight: 700;
-    z-index: 1;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight:600;
+}
 
+.navbar__list__buttom:hover{
+    color:var(--steel-teal);
+   font-size: 18px;
+
+   /* ARREGLAR HOVER PORQUE SE DEFORMAN LOS BOTONES */
 }
 
 /* HEADER */
-
-
 
 
 
@@ -76,6 +75,7 @@ width: 90%;
     height: 880px;
     width: 100%;
     display: flex;
+    margin-top: 5%;
 }
 
 .hero__conteiner{
@@ -84,8 +84,7 @@ width: 90%;
     color: wheat;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 10%;
+    align-items: center;
 }
 
 .hero__conteiner__text{
@@ -107,6 +106,7 @@ width: 90%;
 
 .hero__Conteiner__buttoms{
     display: flex;
+
 }
 
 .hero__buttoms__list{
@@ -115,29 +115,105 @@ width: 90%;
     margin-top: 10%;
 }
 
-.buttom{
+.buttom {
 color:aliceblue;
 font-size: 20px;
+padding: 10px;
+border-radius: 1rem;
+
+}
+
+.buttom:hover{
+    color:var(--uranian-blue);
+    font-size: 21px;
 }
 
 .hero__img__conteiner{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110%;
+    width: 90%;
+    height: 800px;
+    border:1px solid var(--uranian-blue);
+    border-right: none;
+    padding:2rem;
 }
 
 .hero__img{
+    width: 100%;
+    height: 80%;
+    margin-left: 7%;
+}
+
+/* HERO */
+
+
+/* INFO */
+
+.info{
+    display: flex;
+    width: 100%;
+    margin:5% 0 5% 0;
+}
+
+.info__img__conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 50%;
-    height: 50%;
+    height: 800px;
+    border:1px solid var(--uranian-blue);
+    border-left: none;
+    padding:2% 3% 2% 0;
+
     
+}
+
+.info__img{
+    width: 100%;
+    height: 80%;
+}
+
+.info__conteiner{
+    display: flex;
+    width: 50%;
+
+}
+
+.info__text__conteiner{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:70px;
+    flex-direction: column;
+    padding:20px;
+    margin-left: 2%;
+}
+
+.info__title{
+    color:aliceblue;
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    word-spacing: 2px;
+ 
+}
+
+.info__text{
+    color:aliceblue;
+    font-size:30px;
+   
 }
 
 
 
 
 
-/* HERO */
+
+
+
 
 
 
