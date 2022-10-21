@@ -72,7 +72,7 @@ width: 90%;
 /* HERO */
 
 .hero{
-    height: 880px;
+    /* height: 880px; */
     width: 100%;
     display: flex;
     margin-top: 5%;
@@ -94,6 +94,7 @@ width: 90%;
 
 .hero__text{
     font-size: 260%;
+    text-align: center;
 }
 
 .hero__title{
@@ -102,7 +103,31 @@ width: 90%;
     font-weight: 200;
     text-transform: uppercase;
     color: var(--uranian-blue);
+
+    white-space: nowrap;
+    display: block;
+    border-right: 2px solid;
+    width: 19ch;
+    animation: typing 2s steps(19), 
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+
 }
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    
+}
+
+@keyframes blink{
+    50% {
+        border-color:transparent
+    }
+}
+
+
 
 .hero__Conteiner__buttoms{
     display: flex;
@@ -137,6 +162,11 @@ border-radius: 1rem;
     border:1px solid var(--uranian-blue);
     border-right: none;
     padding:2rem;
+   
+    border-radius: 0px;
+    background: #101419;
+    box-shadow: inset 27px -27px 73px #06080a,
+            inset -27px 27px 73px #1a2028;
 }
 
 .hero__img{
@@ -159,19 +189,27 @@ border-radius: 1rem;
 .info__img__conteiner{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    width: 50%;
+    justify-content: center;
+    width: 45%;
     height: 800px;
     border:1px solid var(--uranian-blue);
     border-left: none;
     padding:2% 3% 2% 0;
+    border-radius: 0px;
+    background: #101419;
+    box-shadow: inset -27px 27px 73px #06080a,
+                inset 27px -27px 73px #1a2028;
+
+
+         
+
 
     
 }
 
 .info__img{
-    width: 100%;
-    height: 80%;
+    width: 70%;
+    height: 100%;
 }
 
 .info__conteiner{
@@ -206,22 +244,107 @@ border-radius: 1rem;
     font-size:30px;
    
 }
+/* INFO */
+
+.separate{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 10% 0 2% 0;
+}
+
+.separate__line{
+    display: flex;
+    background-color: snow;
+    width: 70%;
+    height: 1px;
+    margin: auto;
+   
+    
+}
 
 
+/* EQUIPO */
+
+.equipo__section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.equipo__title{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 200;
+    
+
+}
 
 
+.equipo__conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 130px;
+    width: 100%;
+    margin-top: 5%;
+   
+}
 
+.equipo__card{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+    .equipo__card {
+    display: flex;
+    width: 200px;
+    height: 260px;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    
 
+    background-color: #212121;
+    box-shadow: 15px 15px 30px #191919,
+    -15px -15px 30px #292929;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+     transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    
+   }
+   
+   .equipo__card:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+   }
+    
+   .equipo__card i{
+    margin-top: 10%;
+    color:var(--uranian-blue);
+    font-size: 22px;
+   }
 
+   .equipo__name{
+    color: var(--uranian-blue);
+    text-transform: uppercase;
+    font-size: 18px;
+   }
 
+   .equipo__text{
+    color:aliceblue;
+    font-size: 19px;
+    text-align: center;
+   }
 
-
-
-
-
-
-
+/* EQUIPO */
 
 
 
