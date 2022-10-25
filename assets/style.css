@@ -30,7 +30,24 @@ main{
     flex-direction: column;
     width: 100%;
     max-width: 1500px;
+    
 }
+
+::-webkit-scrollbar{
+    background:#191919;
+    border-radius: 1rem;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--steel-teal);
+    border-radius: 1rem;
+
+}
+
+
+
+
 
 /* HEADER */
 .header{
@@ -40,7 +57,8 @@ main{
     align-items: center;
     position: fixed;
     top:0;
-    background-color:var(--rich-black-fogra-29)
+    background-color:var(--rich-black-fogra-29);
+    z-index: 1;
     
 }
 
@@ -279,11 +297,13 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
 
 /* INFO */
 
+/* SEPARATE */
+
 .separate{
     display: flex;
     width: 100%;
     height: 50px;
-    margin: 10% 0 2% 0;
+    margin: 2% 0 2% 0;
 }
 
 .separate__line{
@@ -296,6 +316,7 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
     
 }
 
+/* SEPARATE */
 
 /* EQUIPO */
 
@@ -304,7 +325,7 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-bottom: 10%;
 
 }
@@ -378,6 +399,105 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
 
 /* EQUIPO */
 
+/* SERVICIOS */
+
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.service__conteiner{
+    display: flex;
+    gap: 120px;
+    
+    /* background-color: #fffcf7; */
+}
+
+.service__data{
+    margin-top: 2%;
+   width: 100%;
+   height: 40%;
+   background-color: var(--card-black);
+   border-radius: 2rem;
+   justify-content: center;
+   padding:50px;
+   
+
+}
+
+.service__img{
+   
+    width: 100%;
+    height: 240px;
+    border-radius: 1rem;
+ 
+   
+}
+
+.service__title{
+    color: var(--letter-white);
+    font-size: 400%;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.service__title--size{
+    padding:2%;
+    color:var(--ghost-white);
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+
+.buttom__service__conteiner{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    border:1px solid var(--steel-teal);
+    background-color: #191919;
+    margin-top: 10%;
+    padding:1%
+}
+
+.buttom__service{
+    padding:2%;
+    color:var(--letter-white);
+    font-size:15px;
+    font-weight: 900;
+   
+}
+
+.buttom__service:hover{
+    transform: scale(1.1);
+    color:var(--steel-teal)
+}
+
+
+
+
+
+/* SERVICIOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 :root{
@@ -387,4 +507,6 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
 --steel-teal: #468c98ff;
 --rich-black-fogra-29: #101419ff;
 --letter-white: #fffcf7;
+--card-black:#191716;
+--ghost-white:#F7F7FF;
 }
