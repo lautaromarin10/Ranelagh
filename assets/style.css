@@ -13,6 +13,8 @@ transition: all 500ms ease;
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+    
 }
 
 body{
@@ -91,20 +93,31 @@ width: 90%;
     color: aliceblue;
     font-size: 17px;
     font-weight:600;
-
-
-
-
 }
 
 .navbar__list__buttom:hover{
     color:var(--steel-teal);
    font-size: 18px;
-
- 
    /* ARREGLAR HOVER PORQUE SE DEFORMAN LOS BOTONES */
 }
 
+
+.carrito-conteiner{
+    display: flex;
+    margin-right: 1%;
+}
+
+
+#carrito{
+    color:var(--ghost-white);
+    font-size: 120%;
+}
+
+
+#carrito:hover{
+    color:var(--steel-teal);
+    transform: scale(1.1);
+}
 /* HEADER */
 
 
@@ -195,7 +208,6 @@ font-weight: 600;
 
 .buttom:hover{
     color:var(--uranian-blue);
-    
     font-size: 125%;
 }
 
@@ -447,7 +459,6 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
     margin-top: 5%;
    width: 400px;
    height: 470px;
-  
    background-color: var(--card-black);
    border-radius: 2rem;
    justify-content: center;
@@ -529,7 +540,7 @@ box-shadow: -12px 13px 27px 4px rgba(0,0,0,0.62);
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin-top:10%;
+    margin-top:15%;
 
 }
 
@@ -636,6 +647,12 @@ border:1px solid var(--steel-teal);
     padding:2%;
     font-size: 100%;
     font-weight: 600;
+}
+
+.buttom__add:hover{
+    transform: scale(1.1);
+    color:var(--steel-teal);
+    
 }
 
 .separate--product{
