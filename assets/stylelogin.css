@@ -48,13 +48,13 @@
 
 .navbar__list__buttom{
     color: aliceblue;
-    font-size: 29px;
+    font-size: 110%;
     font-weight:600;
 }
 
 .navbar__list__buttom:hover{
     color:var(--steel-teal);
-   font-size: 31px;
+    font-size: 115%;
 }
 
 /* HEADER */
@@ -73,6 +73,7 @@
 }
 
 .login{
+    margin-top: 3%;
     display: flex;
     width: 50vw;
     height: 80vh;
