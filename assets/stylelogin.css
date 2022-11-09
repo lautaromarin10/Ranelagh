@@ -188,30 +188,37 @@ input ::placeholder{
     --blue-gasoil:#19647E;
     --midnight-blue:#090030;
     }
-
-    @media (max-width:768px){
+    @media (max-width:767px){
         .login{
-           width: 70vh;
+           width: 100vw;
         }
-    }
-
-    @media (max-width:768px){
-        .login{
-           width: 35vh;
-        }
-
+    
         .header__logo{
             margin:0%;
             width: 50%;
             height: 100%;
         }
-
+    
         .login__title{
             text-align: center;
         }
     }
-
     
+    @media (max-width:375px){
+    
+        .navbar__list__buttom{
+            font-size: 15px;
+        }
+    
+    }
+    
+    @media (max-width:374px){
+    
+        .navbar__list__buttom{
+            font-size: 13px;
+        }
+    
+    }
 
 
 

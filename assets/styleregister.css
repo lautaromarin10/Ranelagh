@@ -175,13 +175,13 @@ input ::placeholder{
 
 @media (max-width:768px){
     .register{
-       width: 70vh;
+       width: 70vw;
     }
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .register{
-       width: 35vh;
+       width: 100vw;
     }
 
     .header__logo{
