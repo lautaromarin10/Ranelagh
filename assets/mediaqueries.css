@@ -388,6 +388,7 @@
 
         .cart__display{
             width: 100%;
+            height: 100%;
             border:none
         }
         
@@ -430,6 +431,13 @@
     }
 
     @media (max-width:374px){
+
+        .cart__display{
+            width: 100%;
+            height: 100%;
+            border:none
+        }
+
 
         .navbar__list{
             top:80px;
