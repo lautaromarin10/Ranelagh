@@ -95,6 +95,7 @@
 .login__title{
     color:var(--blue-gasoil);
     font-size: 300%;    
+    text-align: center;
 }
 
 .login__form{
@@ -187,6 +188,34 @@ input ::placeholder{
     --blue-gasoil:#19647E;
     --midnight-blue:#090030;
     }
+
+    @media (max-width:768px){
+        .login{
+           width: 70vh;
+        }
+    }
+
+    @media (max-width:768px){
+        .login{
+           width: 35vh;
+        }
+
+        .header__logo{
+            margin:0%;
+            width: 50%;
+            height: 100%;
+        }
+
+        .login__title{
+            text-align: center;
+        }
+    }
+
+    
+
+
+
+
         
         
 

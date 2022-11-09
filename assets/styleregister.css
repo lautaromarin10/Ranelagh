@@ -92,6 +92,7 @@
 .register__title{
     color:var(--blue-gasoil);
     font-size: 300%;    
+    text-align: center;
 }
 
 .register__form{
@@ -171,6 +172,46 @@ input ::placeholder{
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@media (max-width:768px){
+    .register{
+       width: 70vh;
+    }
+}
+
+@media (max-width:768px){
+    .register{
+       width: 35vh;
+    }
+
+    .header__logo{
+        margin:0%;
+        width: 50%;
+        height: 100%;
+    }
+
+    .register__title{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+
+    .navbar__list__buttom{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:374px){
+
+    .navbar__list__buttom{
+        font-size: 13px;
+    }
+
+}
+
+
 
 /* MAIN */
 :root{
