@@ -1,12 +1,37 @@
-@media (min-width:1441px) and (max-width:2560px){
+@media (min-width:1502px) and (max-width:2560px){
     .cart__btn{
         width: 30%;
         height: 5%
     }
+
+    .service__conteiner{
+       gap:2%
+
+    }
+
+    .product__conteiner__zone{
+        gap:2%
+    }
+   
+
 }
 
 
-@media (max-width:1440px) {
+@media (max-width:1503px) {
+
+    .service{
+        width: 100%;
+    }
+
+    .service__conteiner{
+        width: 100%;
+    }
+
+    .service__data{
+        width: 400px;
+    }
+
+    
     
     .cart__display{
         width: 50vh;
@@ -59,6 +84,7 @@
 
     .service__conteiner{
         gap:20px;
+        width: 100%;
     }
 
     /* .service__data{
@@ -72,7 +98,7 @@
     }
 
     .product__conteiner__zone{
-        gap:1rem;
+        gap:5rem;
     }
 
     .product__conteiner__card{
