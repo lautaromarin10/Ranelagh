@@ -88,9 +88,6 @@
    
 } 
 
-.login:hover{
-    transform: scale(1.03);
-}
 
 .login__title{
     color:var(--blue-gasoil);

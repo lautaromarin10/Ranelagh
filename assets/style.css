@@ -223,8 +223,12 @@ width: 90%;
 }
 
 .quantity-handler:hover{
+    display: flex;
     color: var(--blue-gasoil);
-    font-size:200%
+    transform: scale(1.5);
+   
+  
+   
 }
 
 .item-quantity{
@@ -300,10 +304,10 @@ width: 90%;
 
 }
 
-.hero:hover{
+/* .hero:hover{
     transform: scale(1.01);
     opacity: 100%;
-}
+} */
 
 .hero__conteiner{
     width:90%;
@@ -318,7 +322,7 @@ width: 90%;
 .hero__conteiner__text{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:40px;
 }
 
 .hero__text{
@@ -345,21 +349,22 @@ width: 90%;
 
 .hero__buttoms__list{
     display: flex;
-    gap:40px;
-    margin-top: 10%;
+    gap:50px;
+    margin-top: 15%;
+   
 }
 
 .buttom {
 color:aliceblue;
 font-size: 120%;
-padding: 10px;
 font-weight: 600;
 opacity: 100%;
 }
 
 .buttom:hover{
-    color:var(--uranian-blue);
-    font-size: 125%;
+    color:var(--uranian-blue);  
+    display: flex;
+    transform: scale(1.07);
 }
 
 .hero__img__conteiner{
@@ -553,7 +558,7 @@ box-shadow: -10px 9px 50px 23px rgba(38,38,38,0.25);
    }
    
    .equipo__card:hover {
-    margin-top: -30px;
+    margin-top: -5px;
    }
     
    .equipo__card i{
@@ -587,6 +592,8 @@ box-shadow: -10px 9px 50px 23px rgba(38,38,38,0.25);
    }
 
 /* EQUIPO */
+
+
 
 /* SERVICIOS */
 
@@ -622,7 +629,7 @@ box-shadow: -10px 9px 50px 23px rgba(38,38,38,0.25);
 }
 
 .service__data:hover{
-    transform: translateY(-3%);
+    transform: translateY(-1%);
     opacity:100%;
 }
 
@@ -673,7 +680,7 @@ box-shadow: -10px 9px 50px 23px rgba(38,38,38,0.25);
 }
 
 .buttom__service:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     color:var(--steel-teal);
 }
 
@@ -796,7 +803,7 @@ box-shadow: 0px 1px 68px -13px rgba(71,70,70,0.56);
 }
 
 .buttom__add:hover{
-    transform: scale(1.03);
+    /* transform: scale(1.03); */
     color:var(--steel-teal);
     
 }

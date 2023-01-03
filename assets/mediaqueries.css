@@ -241,6 +241,10 @@
 
 @media (max-width:768px) {
 
+    .main{
+        gap:100px
+    }
+
    
     .info{
         width: 95%;
@@ -301,8 +305,65 @@
     }
     }
 
+    @media (max-width:546px){
+        .info{
+            margin-top: 30%;
+        }
+
+        .separate{
+            margin-top: 15%;
+            margin-bottom: 5%;
+        }
+      
+    }
+
+    @media(max-width:492px){
+
+     
+        
+
+        .header{
+           
+            width: 100vw;
+            padding:10px;
+            border-bottom:1px solid #19647E;
+        }
+        
+        .header__logo{
+            margin-left: 2%;
+            width: 100px;
+            height: 100px;
+
+        }
+       
+        .navbar__list{
+            top:80px;
+        }
+
+        .product__title{
+            font-size: 50px;
+        }
+
+
+        .separate__contact__title{
+            font-size: 60px;
+        }
+
+        
+        
+        .info__text--capitalized{
+            font-size: 25px;
+            
+        }
+    }
+
+   
+
+
     @media (max-width:425px){
 
+       
+        
         .navbar__list{
             top:80px;
         }

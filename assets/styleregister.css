@@ -85,9 +85,6 @@
    
 } 
 
-.register:hover{
-    transform: scale(1.03);
-}
 
 .register__title{
     color:var(--blue-gasoil);
